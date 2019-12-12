@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/images/house.jpg);;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+
+}
+/*GLOBAL*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+header{
+    text-align: center;
+    height: 100px;
+    background: #5cf0dc;
+    margin-top: 0px;
+    border-radius: 1px;
+    max-width: 1279px;
+    opacity: .8;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d;
+
+    
+}
+.logo-text{
+    float: left;
+    margin: 0;
+    color: rgb(63, 189, 63);
+}
+span{
+    color: rgba(255, 255, 255, 0.993);
+}
+p{
+    margin-left: -62%;
+}
+.nav{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-top: 20px;
+}
+
+.nav li{
+    float: left;
+    padding: 0 20px 0 20px ;
+    list-style: none;
+   
+}
+
+.nav li a{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.current{
+    color: yellow;
+    font-weight: bold;
+}
+.nav li a:hover{
+    background: #64c1e6;
+    transition: .5s ease-out;
+    color: #fff;
+    font-weight: bold;
+}
+/*--//header ends*/
+
+/*BOXES*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+
+
+/*--FOOTER--*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color:#1de8b5;
+    text-align: center;
+    
+   
+}
