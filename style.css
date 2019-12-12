@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(/images/house.jpg);;
+    background: url(./images/house.jpg);;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
